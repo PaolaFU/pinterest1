@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.menu {
+    border-bottom: 1px solid #d3d3d3;
+    padding: 10px 0;
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+}
+.menu .logo{
+  background-color: #BD081C;
+  border-radius: 50%;
+  padding-top: 9px;
+
+}
+.menu .logo i {
+    color: white;
+    border-radius: 50%;
