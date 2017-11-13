@@ -7,6 +7,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 header {
     background-color: white;
     position: fixed;
@@ -23,21 +24,25 @@ header {
     list-style: 0;
     
 }
+
 /* inline-block para modificar su alto y ancho*/
 .menu li {
     display: inline-block;
     /*outline: 1px solid yellow*/
 }
+
 /*Estilos logo pinterest*/
 .menu .logo{
     margin: 0 10px;
     color: #BD081C;
  }
+
 .menu .logo i{
     height: 100%;
     vertical-align: middle;
      
 }
+
 /*box de buscar */
 .search {
     border-radius: 6px;
@@ -47,6 +52,7 @@ header {
     width: 70%;
     border-radius: 5px;
   }
+
 /*Para que esten en un mismo bloque pero se modifica su alto y ancho*/
 .box1-search, .box2-search{
     display: inline-block;
@@ -54,18 +60,19 @@ header {
    
     
 }
+
 /*Estilo para box1-search: definir el ancho que ocupara*/
 .box1-search {
     width: 85%;
     padding-left: 35px;
-
-
 }
+
 /*Estilo para el ancho del formulario*/
 .box1-search form{
     display: inherit;
     width: 95%;
 }
+
 /*Estilo para input*/
 .box1-search input{
     border: none;
@@ -74,28 +81,32 @@ header {
     width: 100%;
     font-size: 15px; 
 }
+
 /*Estilo para All pins*/
 .box2-search span{
     font-weight: bold;
 }
+
 .box2-search i{
     margin: 5px;
 }
+
 /*Estilo para los 3 iconos restantes de  la izquierda*/
 .icon {
     margin: 0 15px;
-    /*padding: 0 10px;*/
-  }
+}
   
 .icon i {
     color: #B5B5B5;
   }
+
 
 /*estilos sub menu*/
 .sub-menu{
     padding: 10px 20px; 
     text-align: center;
 }
+
 .sub-menu li{
     border-radius: 6px;
     height: 60px;
@@ -104,10 +115,12 @@ header {
     background-image: url("../assets/img/fondo.jpg");
     background-size: 100%;
 }
+
 .sub-menu .other-background{
     background-image: url("../assets/img/fondo2.jpg");
     background-size: 100%;
 }
+
 .sub-menu span{
     font-weight: 700;
     line-height: 60px;
