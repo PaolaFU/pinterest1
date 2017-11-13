@@ -11,22 +11,146 @@ header {
     background-color: white;
     position: fixed;
     top: 0;
-    width: 100%;
+    right: 0;
+    left:0;
+    z-index: 100;
 }
 .menu {
     border-bottom: 1px solid #d3d3d3;
     padding: 10px 0;
+    width: 100%;
     text-align: center;
+    list-style: 0;
+    
 }
+/* inline-block para modificar su alto y ancho*/
 .menu li {
     display: inline-block;
+    /*outline: 1px solid yellow*/
 }
+/*Estilos logo pinterest*/
 .menu .logo{
-  background-color: #BD081C;
-  border-radius: 50%;
-  padding-top: 9px;
+    margin: 0 10px;
+    color: #BD081C;
+ }
+.menu .logo i{
+    height: 100%;
+    vertical-align: middle;
+     
+}
+/*box de buscar */
+.search {
+    border-radius: 6px;
+    background-color: #EFEFEF;
+    margin: 0 20px;
+    text-align: left;
+    width: 70%;
+    border-radius: 5px;
+  }
+/*Para que esten en un mismo bloque pero se modifica su alto y ancho*/
+.box1-search, .box2-search{
+    display: inline-block;
+    padding: 8px;
+   
+    
+}
+/*Estilo para box1-search: definir el ancho que ocupara*/
+.box1-search {
+    width: 85%;
+    padding-left: 35px;
+
 
 }
-.menu .logo i {
-    color: white;
-    border-radius: 50%;
+/*Estilo para el ancho del formulario*/
+.box1-search form{
+    display: inherit;
+    width: 95%;
+}
+/*Estilo para input*/
+.box1-search input{
+    border: none;
+    outline: none;
+    background-color: #EFEFEF;
+    width: 100%;
+    font-size: 15px; 
+}
+/*Estilo para All pins*/
+.box2-search span{
+    font-weight: bold;
+}
+.box2-search i{
+    margin: 5px;
+}
+/*Estilo para los 3 iconos restantes de  la izquierda*/
+.icon {
+    margin: 0 15px;
+    /*padding: 0 10px;*/
+  }
+  
+.icon i {
+    color: #B5B5B5;
+  }
+
+/*estilos sub menu*/
+.sub-menu{
+    padding: 10px 20px; 
+    text-align: center;
+}
+.sub-menu li{
+    border-radius: 6px;
+    height: 60px;
+    margin: 5px;
+    display: inline-block;
+    background-image: url("../assets/img/fondo.jpg");
+    background-size: 100%;
+}
+.sub-menu .other-background{
+    background-image: url("../assets/img/fondo2.jpg");
+    background-size: 100%;
+}
+.sub-menu span{
+    font-weight: 700;
+    line-height: 60px;
+    padding: 0 24px;
+    height: 100%;
+    width: 100%;
+
+}
+.sub-menu a{
+    text-decoration: none;
+    display: block;
+    
+}
+/* estilo de las imagenes*/
+section { 
+    padding: 0 10px;
+    margin: 150px auto auto;
+    max-width: 100%;
+    overflow: auto;
+}
+section .col {
+    float: left;
+    width: 25%;
+}
+
+section .img-details{
+    margin: 20px 10px;
+}
+
+.img-details img {
+    
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+.img-details .details {
+    background-color: white;
+    height: 35px;
+    margin-top: 15px; 
+}
+.col .img-details a {
+    text-decoration: none;
+    color: rgba(123, 17, 223, 0.767);
+}
+
+
